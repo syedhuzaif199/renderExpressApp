@@ -1,0 +1,38 @@
+<div class="outer-box">
+    <div class="inner-box">
+        <div class="box-title">Sign up</div>
+        <span><%=message1%></span>
+        <form action="/signup" method="POST">
+            <div class="input">
+            <label for="email">Email</label>
+            </div>
+            <br>
+            <div class="input">
+            <input class="text-input" type="email" name="email" placeholder="Enter email">
+            </div>
+            <br>
+            <div class="input">
+            <label for="password1">Password:</label>
+            <br><%=message2%><br>
+            </div>
+            <br>
+            <div class="input">
+            <input class="text-input" type="password" name="password1" placeholder="Enter password">
+            </div>
+            <br>
+            <div class="input">
+            <label for="password2">Confirm Password:</label>
+            <br><%=message2%><br>
+            </div>
+            <br>
+            <div class="input">
+            <input class="text-input" type="password" name="password2" placeholder="Confirm password">
+            </div>
+            <br>
+            <div class="input">
+            <input class = "btn-input" type="submit" value="Sign up">
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Courses</h1>
+    <div class="courses">
+    <% courses.forEach(course => { %>
+        <div class="course">
+            <span class="course-title"><%= course.title %></span>
+            <span class="course-desc"><%= course.description %></span>
+            <a href=<%= course.link %>><span class="enroll-link">Enroll</span></a>
+        </div>
+        
+    <% }); %>
+    </div>
+</div>

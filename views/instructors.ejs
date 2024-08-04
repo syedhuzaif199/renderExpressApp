@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Meet Your Instructors</h1>
+    <div class="instructors">
+    <% instructors.forEach(instructor => { %>
+        <div class="instructor">
+            <span class="instructor-name"><%= instructor.name %></span>
+            <span class="instructor-desc"><%= instructor.description %></span>
+        </div>
+        
+    <% }); %>
+    </div>
+</div>
